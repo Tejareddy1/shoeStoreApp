@@ -1,0 +1,12 @@
+
+Shoe Store Defects:
+
+Story:1
+1) December month is empty.No shoes avaiable
+2) No images under november month
+3) Description Field name is not alligned and it is merged with actual description of the shoe in chrome browser fine with firefox.
+4) Bullet point positioned one line before Brand of shoe starts in chrome browser fine with firefox.
+
+Story:2
+1) email field accepting invalid mail ids 
+2) name of the button is different to browsers(ex: showing as SubmitQuery in mozilla firefox and Submit in chrome) 
