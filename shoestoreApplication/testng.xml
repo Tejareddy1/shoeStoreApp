@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="shoe-store-test-execution" parallel="classes" thread-count="3">
+
+    <test name="verifying the Monthly release shoes ">
+        <classes>
+            <class name="com.shoestore.tests.MonthlyDisplayOfNewReleasesTest"/>
+            <class name="com.shoestore.tests.SubmitEmailForReminderTest"/>
+        </classes>
+    </test>
+</suite>

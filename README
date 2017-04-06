@@ -1,0 +1,15 @@
+This is a test project based on requirements provided at http://shoestore-manheim.rhcloud.com/
+
+Automation tests are written in Selenium using Java along with testNG framework. Project build is done using Maven and test execution covered by Maven surefire plugin.
+
+Default build and test execution command: mvn clean test
+
+Default browser used for all tests is Firefox. To run tests in Chrome browser, specify the browser name in shoestoreconfig.properties file and execute
+
+Test execution using surefire plugin by default is sequential. Enabled parallel execution, so currently tests run classes in parallel
+
+Minimum requirements:
+
+Maven 3.0.5
+JRE 1.7
+Selenium 2.53
